@@ -37,7 +37,7 @@ export const PostCard = ({
         <a
           aria-label={title}
           className={cn(
-            'block relative h-48 lg:h-96 hover:shadow-xl transition-shadow transition-transform duration-200 rounded-xl hover:scale-[1.01]',
+            'block relative aspect-video hover:shadow-xl transition-shadow transition-transform duration-200 rounded-xl hover:scale-[1.01]',
             {
               'w-full md:w-1/2': orientation === 'horizontal',
             },
