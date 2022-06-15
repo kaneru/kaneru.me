@@ -42,4 +42,8 @@ export const LIFELIST: LifelistItem[] = [
     title: 'Прочитать одну книгу по моей специальности от корки до корки',
     isCompleted: false,
   },
+  {
+    title: 'Посетить все страны мира',
+    isCompleted: false,
+  },
 ];
