@@ -1,8 +1,8 @@
 import { NextPage } from 'next';
 import Link from 'next/link';
 import { Container } from '../../components/container';
-import { MONTHS } from '../../constants/months';
 import { getAllPosts } from '../../lib/api';
+import { formatDate } from '../../lib/formatDate';
 import { groupPostsByYear } from '../../lib/groupPostsByYear';
 import Post from '../../types/post';
 
@@ -31,23 +31,18 @@ const Index: NextPage<Props> = ({ allPosts }: Props) => {
                   {year}
                 </h2>
                 <ul className="mb-10">
-                  {posts[year].map(post => {
-                    const formattedDate = new Date(post.date);
-                    const month = formattedDate.getMonth();
-                    const day = formattedDate.getDate();
-                    return (
-                      <li key={post.slug} className="text-lg md:text-xl mb-4">
-                        <Link href={`/posts/${post.slug}`}>
-                          <a className="font-medium text-zinc-900 hover:underline hover:text-blue-500">
-                            {post.title}
-                          </a>
-                        </Link>
-                        <span className="ml-4 text-sm text-slate-600">
-                          {`${day} ${MONTHS[month]}`}
-                        </span>
-                      </li>
-                    );
-                  })}
+                  {posts[year].map(post => (
+                    <li key={post.slug} className="text-lg md:text-xl mb-4">
+                      <Link href={`/posts/${post.slug}`}>
+                        <a className="font-medium text-zinc-900 hover:underline hover:text-blue-500">
+                          {post.title}
+                        </a>
+                      </Link>
+                      <span className="ml-4 text-sm text-slate-600">
+                        {formatDate(post.date)}
+                      </span>
+                    </li>
+                  ))}
                 </ul>
               </div>
             );

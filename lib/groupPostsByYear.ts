@@ -7,7 +7,7 @@ type Group = {
 export const groupPostsByYear = (posts: Post[]) => {
   return posts.reduce((group: Group, post: Post) => {
     const { date } = post;
-    const year = new Date(date).getFullYear();
+    const year = date.slice(0, 4);
     group[year] = group[year] ?? [];
     group[year].push(post);
     return group;
