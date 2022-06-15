@@ -9,6 +9,7 @@ import s from '../styles/Home.module.css';
 import { PROJECTS } from '../constants/projects';
 import readingTime from 'reading-time';
 import Link from 'next/link';
+import { EXTRAS } from '../constants/extra';
 
 type Props = {
   allPosts: Post[];
@@ -76,6 +77,35 @@ const Home: NextPage<Props> = ({ allPosts }: Props) => {
               </a>
             </Link>
           </div> */}
+        </section>
+        <section>
+          <h2 className="text-5xl lg:text-7xl font-bold mt-16 mb-10 tracking-tighter leading-tight text-zinc-900">
+            Остальное
+          </h2>
+          <div className="grid grid-cols-2 gap-8">
+            {EXTRAS.map(extra => (
+              <div key={extra.url}>
+                <Link href={extra.url}>
+                  <a className="block relative aspect-video rounded-2xl mb-4 hover:shadow-xl transition-shadow transition-transform duration-200 rounded-xl hover:scale-[1.01]">
+                    <Image
+                      src={extra.image}
+                      alt=""
+                      layout="fill"
+                      className="rounded-2xl"
+                    />
+                  </a>
+                </Link>
+                <Link href={extra.url}>
+                  <a className="hover:underline hover:decoration-blue-500">
+                    <h3 className="text-2xl font-semibold mb-2 text-zinc-900 hover:text-blue-500">
+                      {extra.title}
+                    </h3>
+                  </a>
+                </Link>
+                <p className="text-lg">{extra.description}</p>
+              </div>
+            ))}
+          </div>
         </section>
       </Container>
       <section className="bg-blue-500 py-20 mt-20">
