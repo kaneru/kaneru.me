@@ -29,7 +29,7 @@ const Post: NextPage<Props> = ({ post, morePosts, preview }: Props) => {
         <p>Loading…</p>
       ) : (
         <>
-          <article className="">
+          <article>
             <Head>
               <title>{post.title} | Блог Анатолия Гуляева</title>
               {/* <meta property="og:image" content={post.ogImage.url} /> */}
