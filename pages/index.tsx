@@ -81,7 +81,7 @@ const Home: NextPage<Props> = ({ allPosts }: Props) => {
       <section className="bg-blue-500 py-20 mt-20">
         <div className="container mx-auto flex justify-center items-center gap-8 flex-col px-4 md:px-12 md:flex-row">
           <Image
-            src="/images/avatar-1.png"
+            src="/images/avatar-1.jpg"
             alt=""
             width="200"
             height="200"
