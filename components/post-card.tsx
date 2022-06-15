@@ -44,7 +44,7 @@ export const PostCard = ({
           )}
         >
           <Image
-            src={coverImage || '/images/example.png'}
+            src={coverImage || '/images/no-image.jpg'}
             alt=""
             layout="fill"
             className="object-cover rounded-xl"
