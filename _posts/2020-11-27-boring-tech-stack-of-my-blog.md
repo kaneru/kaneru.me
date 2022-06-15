@@ -3,7 +3,7 @@ layout: post
 title: 'Скучный стек моего блога'
 date: 2020-11-27 04:30 +09:00
 tags: ['#100DaysToOffload', 'блог', 'мета']
-image: '/assets/images/boring-tech-stack-of-my-blog/fan_vs_enjoyer.png'
+image: '/images/boring-tech-stack-of-my-blog/fan_vs_enjoyer.png'
 ---
 
 Это Пост 31 из 100 челленджа [#100DaysToOffload](/tags/#100daystooffload). Подробнее о челлендже [тут](/100-days-to-offload).
@@ -11,7 +11,7 @@ image: '/assets/images/boring-tech-stack-of-my-blog/fan_vs_enjoyer.png'
 Первая версия этого блога создавалась с помощью движка [Октопресс](http://octopress.org/). Ныне депрекейтед. Следующая итерация: «А не сделать ли мне самописный движок на Рельсах?» — подумал я. И ёбнул. У меня даже остался скриншот.
 
 <figure>
-  <img src="{{ site.url }}/assets/images/boring-tech-stack-of-my-blog/screenshot.jpeg" data-action="zoom" alt="Скриншот моего Блога в 2017 году.">
+  <img src="/images/boring-tech-stack-of-my-blog/screenshot.jpeg" data-action="zoom" alt="Скриншот моего Блога в 2017 году.">
   <figcaption>Скриншот от 2017-08-02</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ image: '/assets/images/boring-tech-stack-of-my-blog/fan_vs_enjoyer.png'
 Основные мета-теги я поставил. Недавно [настроил мета-теги для Твиттер превью](/twitter-cards-on-jekyll). И конверсия реально выросла!
 
 <figure>
-  <img src="/assets/images/boring-tech-stack-of-my-blog/fan_vs_enjoyer.png" data-action="zoom" alt="Мем average fan of маленьких показателей кликов на блог в Твиттере против average enjoyer of большой конверсии.">
+  <img src="/images/boring-tech-stack-of-my-blog/fan_vs_enjoyer.png" data-action="zoom" alt="Мем average fan of маленьких показателей кликов на блог в Твиттере против average enjoyer of большой конверсии.">
   <figcaption>До внедрения Твиттер Превью и после.</figcaption>
 </figure>
 
@@ -93,6 +93,6 @@ TODO:
 
 ## Апдейты
 
-- Добавил плашку [#100DaysToOffload]({{ site.url }}/tags/#100daystooffload).
+- Добавил плашку [#100DaysToOffload](/tags/#100daystooffload).
 - Исправил опечатку и семантическую ошибку.
 - Добавил ссылки для инструментов.

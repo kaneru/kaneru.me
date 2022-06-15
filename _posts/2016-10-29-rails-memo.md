@@ -52,7 +52,7 @@ end
 
 ## nil? vs if true vs empty? vs blank?
 
-![nil]({{ site.url }}/assets/images/rails-memo/nil.png)
+![nil](/images/rails-memo/nil.png)
 
 [source](http://stackoverflow.com/questions/885414/a-concise-explanation-of-nil-v-empty-v-blank-in-ruby-on-rails)
 

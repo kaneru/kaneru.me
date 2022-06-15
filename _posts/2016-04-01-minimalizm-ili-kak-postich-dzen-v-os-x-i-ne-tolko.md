@@ -13,7 +13,7 @@ tags: osx minimalism productivity
 
 Мой рабочий стол выглядит вот так:
 
-![My Desktop]({{ site.url }}/assets/images/minimalism-osx/desktop.png)
+![My Desktop](/images/minimalism-osx/desktop.png)
 
 Довольно скучно, но мне по нраву.
 

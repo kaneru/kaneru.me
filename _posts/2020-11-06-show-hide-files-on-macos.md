@@ -5,7 +5,7 @@ date: 2020-11-06 03:52 +09:00
 tags: ['#100DaysToOffload', 'макос', 'TIL', 'альфред']
 ---
 
-Это Пост 19 из 100 челленджа [#100DaysToOffload]({{ site.url }}/tags/#100daystooffload). Подробнее о челлендже [тут]({{ site.url }}/100-days-to-offload).
+Это Пост 19 из 100 челленджа [#100DaysToOffload](/tags/#100daystooffload). Подробнее о челлендже [тут](/100-days-to-offload).
 
 TIL: Горячие клавиши `Cmd + Shift + .` отображают / скрывают скрытые файлы в Файндере. Всё, надеюсь не забуду, а то постоянно лезу в Гугл за помощью.
 
@@ -19,4 +19,4 @@ on alfred_script(q)
 end alfred_script
 ```
 
-[Ссылка на воркфлоу]({{ site.url }}/assets/files/show-hide-files-on-macos/Hidden Files (modified by kaneru).alfredworkflow)
+[Ссылка на воркфлоу](/files/show-hide-files-on-macos/Hidden Files (modified by kaneru).alfredworkflow)

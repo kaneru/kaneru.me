@@ -5,7 +5,7 @@ date: 2020-08-20 16:35 +09:00
 tags: ['#100DaysToOffload', 'инстаграм']
 ---
 
-Это Пост 12 из 100 челленджа [#100DaysToOffload]({{ site.url }}/tags/#100daystooffload). Подробнее о челлендже [тут]({{ site.url }}/100-days-to-offload).
+Это Пост 12 из 100 челленджа [#100DaysToOffload](/tags/#100daystooffload). Подробнее о челлендже [тут](/100-days-to-offload).
 
 Удалил на прошлой пятнице Инстаграм.
 

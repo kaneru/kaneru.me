@@ -5,7 +5,7 @@ date: 2020-08-02 23:51 +09:00
 tags: ['#100DaysToOffload', 'рсс', 'макос', 'айос', 'ньюс-эксплорер']
 ---
 
-Это День 7 из 100 челленджа [#100DaysToOffload]({{ site.url }}/tags/#100daystooffload). Подробнее о челлендже [тут]({{ site.url }}/100-days-to-offload).
+Это День 7 из 100 челленджа [#100DaysToOffload](/tags/#100daystooffload). Подробнее о челлендже [тут](/100-days-to-offload).
 
 Без задней мысли купил лучший по моему мнению РСС-ридер на Айфон и Макбук. [Ньюс Эксплорер](https://betamagic.nl/products/newsexplorer.html). Долго в воздухе витал вопрос о поиске хорошего РСС-агрегатора.
 
@@ -14,7 +14,7 @@ tags: ['#100DaysToOffload', 'рсс', 'макос', 'айос', 'ньюс-экс
 Ньюс Эксплорер в свою очередь имеет опрятный внешний вид, синхронизацию между устройствами через Айклауд и, самое главное, на приложение не надо подписываться. Купил и забыл. Мне большего не надо.
 
 <figure>
-  <img src="{{ site.url }}/assets/images/news-explorer/news-explorer-macos.png" data-action="zoom" alt="Скриншот программы News Explorer на macOS.">
+  <img src="/images/news-explorer/news-explorer-macos.png" data-action="zoom" alt="Скриншот программы News Explorer на macOS.">
   <figcaption>Кайф!</figcaption>
 </figure>
 

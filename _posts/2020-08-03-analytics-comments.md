@@ -5,7 +5,7 @@ date: 2020-08-03 10:27 +09:00
 tags: ['#100DaysToOffload', 'utterances', 'goatcounter']
 ---
 
-Это День 8 из 100 челленджа [#100DaysToOffload]({{ site.url }}/tags/#100daystooffload). Подробнее о челлендже [тут]({{ site.url }}/100-days-to-offload).
+Это День 8 из 100 челленджа [#100DaysToOffload](/tags/#100daystooffload). Подробнее о челлендже [тут](/100-days-to-offload).
 
 Прикрутил комментарии на базе Github Issues с помощью [utterance/utterances](https://github.com/utterance/utterances) и аналитику с помощью [GoatCounter](https://www.goatcounter.com/). Сразу скажу, аналитика приватная, без хуйни и легковесная.
 

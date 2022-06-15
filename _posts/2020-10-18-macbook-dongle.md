@@ -5,12 +5,12 @@ date: 2020-10-18 11:59 +09:00
 tags: ['#100DaysToOffload', 'макбук']
 ---
 
-Это Пост 15 из 100 челленджа [#100DaysToOffload]({{ site.url }}/tags/#100daystooffload). Подробнее о челлендже [тут]({{ site.url }}/100-days-to-offload).
+Это Пост 15 из 100 челленджа [#100DaysToOffload](/tags/#100daystooffload). Подробнее о челлендже [тут](/100-days-to-offload).
 
 Купил мини-донгл ЮСБ-на-Тайп-Си в Мвидео за 400 рублей. После того, как написал предыдущий пост.
 
 <figure>
-  <img src="{{ site.url }}/assets/images/macbook-dongle/IMG_2568.jpg" data-action="zoom" alt="ЮСБ-донгл для Макбуков.">
+  <img src="/images/macbook-dongle/IMG_2568.jpg" data-action="zoom" alt="ЮСБ-донгл для Макбуков.">
   <figcaption>Это не реклама Rombica</figcaption>
 </figure>
 

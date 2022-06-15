@@ -3,7 +3,7 @@ layout: post
 title: 'Создаем компонент прокручиваемого контейнера на Реакте'
 date: 2021-11-30 22:58 +09:00
 tags: ['react', 'typescript', 'фронтенд']
-image: /assets/images/react-scrollable-container/preview.jpg
+image: /images/react-scrollable-container/preview.jpg
 summary: 'Реализация прокручиваемого контейнера на Реакте с контролами'
 ---
 
@@ -103,7 +103,7 @@ export const ScrollableContainer = () => {
 ```
 
 <figure>
-  <img src="/assets/images/react-scrollable-container/scrollableContainer_animation_1.gif" alt="" />
+  <img src="/images/react-scrollable-container/scrollableContainer_animation_1.gif" alt="" />
 </figure>
 
 Уже в принципе неплохо выглядит и работает. Для чисто мобильного сайта пойдёт, но на десктопе будет неочевидно, что контейнер можно скроллить. Поэтому добавим кнопки.
@@ -197,7 +197,7 @@ export const ScrollableContainer = () => {
 Теперь можно скроллить с помощью кнопок.
 
 <figure>
-  <img src="/assets/images/react-scrollable-container/scrollableContainer_animation_2.gif" alt="" />
+  <img src="/images/react-scrollable-container/scrollableContainer_animation_2.gif" alt="" />
 </figure>
 
 ## Последние штрихи
@@ -330,7 +330,7 @@ export const ScrollableContainer = () => {
 Итоговый вариант:
 
 <figure>
-  <img src="/assets/images/react-scrollable-container/scrollableContainer_animation_3.gif" alt="" />
+  <img src="/images/react-scrollable-container/scrollableContainer_animation_3.gif" alt="" />
 </figure>
 
 ## Что можно сделать лучше

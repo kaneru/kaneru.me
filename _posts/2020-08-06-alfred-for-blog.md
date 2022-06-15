@@ -5,12 +5,12 @@ date: 2020-08-06 01:01 +09:00
 tags: ['#100DaysToOffload', 'альфред', 'автоматизация']
 ---
 
-Это День 9 из 100 челленджа [#100DaysToOffload]({{ site.url }}/tags/#100daystooffload). Подробнее о челлендже [тут]({{ site.url }}/100-days-to-offload).
+Это День 9 из 100 челленджа [#100DaysToOffload](/tags/#100daystooffload). Подробнее о челлендже [тут](/100-days-to-offload).
 
 Дотянулись руки до написания простенького воркфлоу для Альфреда, который создаёт заготовку для нового поста в блог в соответствующей папке.
 
 <figure>
-  <img src="{{ site.url }}/assets/images/alfred-for-blog/alfred.jpg" data-action="zoom" alt="Скриншот моего воркфлоу в программе Альфред на макОС. Изображена команда 'blog', которая создает новый пост в репозитории блога из шаблона.">
+  <img src="/images/alfred-for-blog/alfred.jpg" data-action="zoom" alt="Скриншот моего воркфлоу в программе Альфред на макОС. Изображена команда 'blog', которая создает новый пост в репозитории блога из шаблона.">
 </figure>
 
 Как работает воркфлоу:
@@ -39,4 +39,4 @@ tags: ['#100DaysToOffload']
 ---" > $current_date-$query.md
 ```
 
-[**Скачать воркфлоу для Альфреда 4**]({{ site.url }}/assets/files/alfred-for-blog/Automate Blog Routine.alfredworkflow)
+[**Скачать воркфлоу для Альфреда 4**](/files/alfred-for-blog/Automate Blog Routine.alfredworkflow)

@@ -5,7 +5,7 @@ date: 2016-09-11 09:00 +09:00
 tags: evernote productivity
 ---
 
-![Evernote logo]({{ site.url }}/assets/images/evernote/logo.jpg)
+![Evernote logo](/images/evernote/logo.jpg)
 
 ## Введение
 
@@ -20,7 +20,7 @@ tags: evernote productivity
 - $bullet journal 2016;
 - archieved.
 
-![Notebooks]({{ site.url }}/assets/images/evernote/screenshot-1.png)
+![Notebooks](/images/evernote/screenshot-1.png)
 
 Не создавайте много блокнотов по типу: personal, dev, project_1, project_2 etc. Удобнее пользоваться тегами, хотя бы потому, что их можно бесконечно вкладывать в друг друга.
 
@@ -42,7 +42,7 @@ tags: evernote productivity
 
 ## Теги
 
-![Tags]({{ site.url }}/assets/images/evernote/screenshot-2.png)
+![Tags](/images/evernote/screenshot-2.png)
 
 Подобной структурой тегов я вдохновился из этой [статьи](https://michaelhyatt.com/evernote-tags.html).
 *_what* состоит из 7 дочерних тегов, у которых тоже есть дочерние теги. Об этих семи по порядку:
@@ -109,7 +109,7 @@ tags: evernote productivity
 - В виде фотографии или диктофонной записи;
 - Просто в виде текстовой заметки.
 
-![Bookmarks]({{ site.url }}/assets/images/evernote/screenshot-3.png)
+![Bookmarks](/images/evernote/screenshot-3.png)
 
 В течение недели по ходу серфинга по вебу, работы или изучения чего-либо добавляю ссылки в закладки браузера, фотографирую документы или добавляю в избранное посты в твиттере. Не заморачиваюсь насчет структурирования заметок до конца недели.
 
@@ -117,11 +117,11 @@ tags: evernote productivity
 
 В субботу или воскресенье уделяю перемещению закладок из браузера в Evernote и сортировке всех записей в блокноте *!inbox* полчаса. Во время этого процесса удаляю лишнее, расставляю теги (прелесть в том, что заметка может иметь несчетное количество тегов), в твиты с картинками добавляю оные в заметку. Статьи стараюсь сохранять с помошью расширения *Web Clipper* в формате simple article, youtube видео идут в формате youtube (стоило бы сохранять сами видео в заметку), остальное идет как просто link.
 
-![Web clipper]({{ site.url }}/assets/images/evernote/screenshot-4.png)
+![Web clipper](/images/evernote/screenshot-4.png)
 
-![Inbox-1]({{ site.url }}/assets/images/evernote/screenshot-5.png)
+![Inbox-1](/images/evernote/screenshot-5.png)
 
-![Inbox-2]({{ site.url }}/assets/images/evernote/screenshot-6.png)
+![Inbox-2](/images/evernote/screenshot-6.png)
 
 ### Шаг 3
 
