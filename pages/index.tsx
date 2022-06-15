@@ -64,6 +64,7 @@ const Home: NextPage<Props> = ({ allPosts }: Props) => {
                 title={project.title}
                 description={project.description}
                 image={project.image}
+                url={project.url}
               />
             ))}
           </div>
