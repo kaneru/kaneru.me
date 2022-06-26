@@ -44,10 +44,7 @@ const Home: NextPage<Props> = ({ allPosts }: Props) => {
           </div>
           <div className="flex justify-center md:justify-end">
             <Link href="/posts">
-              <a
-                type="button"
-                className="bg-blue-500 rounded px-10 py-3 text-white text-xl mt-8 align-center hover:bg-blue-600"
-              >
+              <a className="bg-blue-500 rounded px-10 py-3 text-white text-xl mt-8 align-center hover:bg-blue-600">
                 Все посты →
               </a>
             </Link>
@@ -83,7 +80,7 @@ const Home: NextPage<Props> = ({ allPosts }: Props) => {
           <h2 className="text-5xl lg:text-7xl font-bold mt-16 mb-10 tracking-tighter leading-tight text-zinc-900">
             Остальное
           </h2>
-          <div className="grid grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {EXTRAS.map(extra => (
               <div key={extra.url}>
                 <Link href={extra.url}>
