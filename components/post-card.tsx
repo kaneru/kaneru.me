@@ -56,7 +56,7 @@ export const PostCard = ({
           {parseTags(tags).map(tag => (
             <li
               key={tag}
-              className="bg-blue-200 rounded-2xl px-3 py-0.5 text-zinc-700"
+              className="bg-blue-200 rounded-2xl px-3 py-0.5 text-zinc-700 text-xs md:text-base"
             >
               {tag}
             </li>
