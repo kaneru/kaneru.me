@@ -41,7 +41,7 @@ const Home: NextPage<Props> = ({ allPosts }: Props) => {
                   <PostCard
                     key={post.slug}
                     title={post.title}
-                    description={post.description}
+                    description={post.summary}
                     slug={post.slug}
                     createdAt={post.date}
                     coverImage={post.image}
@@ -150,6 +150,7 @@ export const getStaticProps = async () => {
     'image',
     'tags',
     'content',
+    'summary',
   ]);
 
   return {
