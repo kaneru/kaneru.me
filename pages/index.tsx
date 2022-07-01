@@ -12,6 +12,7 @@ import Link from 'next/link';
 import { EXTRAS } from '../constants/extra';
 import Head from 'next/head';
 import { generateTitle } from '../lib/generateTitle';
+import { generateRssFeed } from '../lib/generateRssFeed';
 
 type Props = {
   allPosts: Post[];
@@ -143,6 +144,7 @@ const Home: NextPage<Props> = ({ allPosts }: Props) => {
 export default Home;
 
 export const getStaticProps = async () => {
+  await generateRssFeed();
   const allPosts = getAllPosts([
     'title',
     'date',
