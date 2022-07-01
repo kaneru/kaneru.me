@@ -3,10 +3,7 @@ type PostType = {
   title: string;
   date: string;
   image: string;
-  description: string;
-  ogImage: {
-    url: string;
-  };
+  summary: string;
   content: string;
   tags: string | string[];
 };
