@@ -10,6 +10,11 @@ type TripsByYear = {
 
 export const TRIPS_BY_YEAR: TripsByYear = {
   2022: [
+    { place: 'Тбилиси, Грузия', date: 'Июль' },
+    { place: 'Ереван, Армения', date: 'Июнь' },
+    { place: 'Тбилиси, Грузия', date: 'Июнь' },
+    { place: 'Бишкек, Кыргызстан', date: 'Июнь' },
+    { place: 'Дубай, ОАЭ', date: 'Июнь' },
     { place: 'Бишкек, Кыргызстан', date: 'Июнь' },
     { place: 'Озеро Колсай, Казахстан', date: 'Апрель' },
     { place: 'Алматы, Казахстан', date: 'Март' },
