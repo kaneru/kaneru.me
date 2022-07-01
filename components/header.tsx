@@ -30,7 +30,7 @@ export const Header = () => {
             'bg-zinc-800 mb-10': !isMainPage,
           },
           {
-            ['bg-zinc-800 lg:bg-transparent']: isMenuOpened,
+            ['bg-zinc-800 lg:bg-transparent']: isMenuOpened && isMainPage,
           },
         )}
       >
