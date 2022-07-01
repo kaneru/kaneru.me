@@ -33,7 +33,7 @@ const Index: NextPage<Props> = ({ allPosts }: Props) => {
                 <ul className="mb-10">
                   {posts[year].map(post => (
                     <li key={post.slug} className="text-lg md:text-xl mb-4">
-                      <Link href={`/posts/${post.slug}`}>
+                        <Link href={`/${post.slug}`}>
                         <a className="font-medium text-zinc-900 hover:underline hover:text-blue-500">
                           {post.title}
                         </a>

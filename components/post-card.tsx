@@ -33,7 +33,7 @@ export const PostCard = ({
         'flex-col md:flex-row': orientation === 'horizontal',
       })}
     >
-      <Link href={`/posts/${slug}`}>
+      <Link href={`/${slug}`}>
         <a
           aria-label={title}
           className={cn(
@@ -62,7 +62,7 @@ export const PostCard = ({
             </li>
           ))}
         </ul>
-        <Link href={`/posts/${slug}`}>
+        <Link href={`/${slug}`}>
           <a className="hover:underline hover:decoration-blue-500 break-words">
             <h3 className="text-2xl font-semibold mb-6 text-zinc-900 hover:text-blue-500 break-words">
               {title}

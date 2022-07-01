@@ -1,15 +1,16 @@
 import { useRouter } from 'next/router';
 import ErrorPage from 'next/error';
-import { getPostBySlug, getAllPosts } from '../../lib/api';
+import { getPostBySlug, getAllPosts } from '../lib/api';
 import Head from 'next/head';
-import markdownToHtml from '../../lib/markdownToHtml';
-import PostType from '../../types/post';
-import { Container } from '../../components/container';
-import { parseTags } from '../../lib/parseTags';
+import markdownToHtml from '../lib/markdownToHtml';
+import PostType from '../types/post';
+import { Container } from '../components/container';
+import { parseTags } from '../lib/parseTags';
 import { NextPage } from 'next';
-import { formatDate } from '../../lib/formatDate';
-import { minutesToHuman } from '../../lib/minutesToHuman';
+import { formatDate } from '../lib/formatDate';
+import { minutesToHuman } from '../lib/minutesToHuman';
 import readingTime from 'reading-time';
+import { generateTitle } from '../lib/generateTitle';
 
 type Props = {
   post: PostType;
@@ -31,7 +32,7 @@ const Post: NextPage<Props> = ({ post, morePosts, preview }: Props) => {
         <>
           <article>
             <Head>
-              <title>{post.title} | Блог Анатолия Гуляева</title>
+              <title>{generateTitle(post.title)}</title>
               {/* <meta property="og:image" content={post.ogImage.url} /> */}
             </Head>
             <header className="mb-16">
