@@ -33,7 +33,40 @@ const Post: NextPage<Props> = ({ post, morePosts, preview }: Props) => {
           <article>
             <Head>
               <title>{generateTitle(post.title)}</title>
-              {/* <meta property="og:image" content={post.ogImage.url} /> */}
+              <meta property="og:type" content="website" />
+              <meta
+                property="og:url"
+                content={`https://kaneru.me/${post.slug}`}
+              />
+              <meta property="og:title" content={post.title} />
+              {post.image && (
+                <meta
+                  property="og:image"
+                  content={`https://kaneru.me${post.image}`}
+                />
+              )}
+              {post.summary && (
+                <meta property="og:description" content={post.summary} />
+              )}
+              <meta property="og:site_name" content="Блог Анатолия Гуляева" />
+              <meta property="og:locale" content="ru_RU" />
+
+              <meta name="twitter:card" content="summary_large_image" />
+              <meta name="twitter:creator" content="@kaneru__" />
+              <meta
+                name="twitter:url"
+                content={`https://kaneru.me/${post.slug}`}
+              />
+              <meta name="twitter:title" content={post.title} />
+              {post.summary && (
+                <meta name="twitter:description" content={post.summary} />
+              )}
+              {post.image && (
+                <meta
+                  name="twitter:image"
+                  content={`https://kaneru.me${post.image}`}
+                />
+              )}
             </Head>
             <header className="mb-16">
               <h1 className="text-5xl lg:text-7xl font-bold my-8 tracking-tighter leading-tight break-words">
@@ -80,6 +113,8 @@ export async function getStaticProps({ params }: Params) {
     'slug',
     'content',
     'tags',
+    'image',
+    'summary',
   ]);
 
   const content = await markdownToHtml(post.content || '');
