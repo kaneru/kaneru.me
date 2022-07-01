@@ -11,6 +11,11 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <link rel="canonical" href={canonicalURL} />
+        <script
+          data-goatcounter="https://kaneru.goatcounter.com/count"
+          async
+          src="//gc.zgo.at/count.js"
+        />
       </Head>
       <Header />
       <Component {...pageProps} />
