@@ -4,7 +4,7 @@ export const PROJECTS: Project[] = [
   {
     title: 'Личный сайт',
     description: 'Сайт написан на Next.js и Tailwind CSS',
-    url: 'https://kaneru.me',
+    url: 'https://github.com/kaneru/kaneru.me',
     image: '/images/projects/personal-site.jpg',
   },
   {
