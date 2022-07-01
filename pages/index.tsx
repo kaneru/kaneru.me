@@ -10,6 +10,8 @@ import { PROJECTS } from '../constants/projects';
 import readingTime from 'reading-time';
 import Link from 'next/link';
 import { EXTRAS } from '../constants/extra';
+import Head from 'next/head';
+import { generateTitle } from '../lib/generateTitle';
 
 type Props = {
   allPosts: Post[];
@@ -18,6 +20,13 @@ type Props = {
 const Home: NextPage<Props> = ({ allPosts }: Props) => {
   return (
     <>
+      <Head>
+        <title>{generateTitle()}</title>
+        <meta
+          name="description"
+          content="Пишу про программирование, фронтенд, продуктивность и свою жизнь."
+        />
+      </Head>
       <Container as="main">
         <section>
           <h2 className="text-5xl lg:text-7xl font-bold mt-16 mb-10 tracking-tighter leading-tight text-zinc-900">
