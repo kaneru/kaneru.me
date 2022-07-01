@@ -64,12 +64,14 @@ export const PostCard = ({
         </ul>
         <Link href={`/${slug}`}>
           <a className="hover:underline hover:decoration-blue-500 break-words">
-            <h3 className="text-2xl font-semibold mb-6 text-zinc-900 hover:text-blue-500 break-words">
+            <h3 className="text-2xl font-semibold mb-2 text-zinc-900 hover:text-blue-500 break-words">
               {title}
             </h3>
           </a>
         </Link>
-        {description ? <p className="mb-4 text-lg">{description}</p> : null}
+        {description ? (
+          <p className="mb-4 text-lg text-zinc-700">{description}</p>
+        ) : null}
         <p className="text-zinc-500">
           {formatDate(createdAt, true)} ∙ {readingTime}{' '}
           {minutesToHuman(readingTime)} чтения
