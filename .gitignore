@@ -36,3 +36,6 @@ yarn-error.log*
 
 # vscode
 .vscode
+
+/public/atom.xml
+/public/feed*
